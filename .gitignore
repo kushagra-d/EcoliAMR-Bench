@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Datasets
+data/raw/*
+data/processed/*
+
+# Generated results and model artifacts
+results/*
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Secrets and environment files
+.env
+*.env
+secrets.*
