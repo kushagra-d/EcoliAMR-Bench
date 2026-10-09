@@ -1,0 +1,10 @@
+# Pinned for Python 3.13.14 (see .python-version)
+# Deliberately not the newest major line of pandas/pytest to avoid
+# untested breaking changes (pandas 3.x, pytest 9.x) this early in the project.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+biopython==1.88
+pytest==8.4.2
