@@ -16,6 +16,11 @@ __pycache__/
 data/raw/*
 data/processed/*
 
+# External reference databases (large, reproducibly re-downloadable - e.g.
+# CARD; see reports/pilot_ciprofloxacin_biological_interpretation.md for
+# the exact retrieval command)
+data/external/*
+
 # Generated results and model artifacts
 results/*
 *.pkl
